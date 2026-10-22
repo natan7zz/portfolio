@@ -31,17 +31,6 @@ O site apresenta quem eu sou, as ferramentas que utilizo, os projetos em destaqu
 - 💻 Logo estilo código e efeitos ao passar o mouse nos botões e links
 - 📱 Layout responsivo, para computador e celular
 
-## 🛠️ Tecnologias
-
-| Tecnologia | Uso |
-|---|---|
-| **Next.js 14** (App Router) | Estrutura e renderização do site |
-
-| **React** | Componentes da interface |
-| **TypeScript** | Código tipado e mais seguro |
-| **Tailwind CSS** | Estilização e temas |
-| **Web3Forms** | Envio do formulário de contato |
-
 ## 🖼️ Screenshots
 
 <div align="center">
