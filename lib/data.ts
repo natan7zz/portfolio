@@ -4,7 +4,7 @@ export const profile = {
   name: "Natan",
   role: "Software Developer",
   tagline:
-    "Olá! Sou Natan Sousa, Minha jornada na tecnologia é movida pela curiosidade e pela paixão pelo desenvolvimento de software. Ao longo dos meus estudos, venho desenvolvendo projetos práticos, aprimorando minhas habilidades técnicas e explorando novas tecnologias. Atualmente, meu foco é o desenvolvimento de software e automações de processos no ambiente de trabalho, mas estou desbravando as diversas áreas na Tecnologia como Dados e serviçoes de qualidade (QA), sempre aprimorando meus conhecimentos técnicos enquanto evoluo constantemente como desenvolvedor.",
+    "Olá! Sou Natan Sousa, apaixonado por tecnologia e desenvolvimento de software. Desenvolvo projetos práticos e exploro novas tecnologias, com foco em desenvolvimento de software e automação de processos. Também estou expandindo meus conhecimentos em Dados e Quality Assurance (QA), buscando evolução técnica constante.",
   email: "natansousacosta4@gmail.com",
   linkedin: "https://www.linkedin.com/in/natan-sousa-248a152aa",
   github: "https://github.com/Natan7z",
