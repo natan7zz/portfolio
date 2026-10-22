@@ -47,7 +47,6 @@ O site apresenta quem eu sou, as ferramentas que utilizo, os projetos em destaqu
 <div align="center">
   <!-- Troque pelos links das suas imagens (arraste o print aqui na edição do README no GitHub) -->
   <img width="1219" height="715" alt="escuro" src="https://github.com/user-attachments/assets/753c53f6-edb4-4b79-94f9-eaa9032ee841" />
-  <img width="1217" height="721" alt="claro" src="https://github.com/user-attachments/assets/abf9da9b-34ce-4702-a580-b7ec8ccad0f5" />
 
 </div>
 
