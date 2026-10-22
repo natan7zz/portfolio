@@ -90,7 +90,7 @@ export default function Contact() {
           <button
             type="submit"
             disabled={status === "sending"}
-            className="group relative w-full overflow-hidden rounded-lg bg-accent px-6 py-3 font-medium text-ink-950 transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:bg-accent-soft hover:shadow-[0_0_30px_rgba(255,138,61,0.65)] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0 disabled:hover:scale-100"
+            className="group relative w-full overflow-hidden rounded-lg bg-accent px-6 py-3 font-medium text-ink-950 transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:bg-accent-soft hover:shadow-[0_0_30px_rgba(0,240,255,0.65)] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0 disabled:hover:scale-100"
           >
             <span
               aria-hidden="true"

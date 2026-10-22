@@ -30,7 +30,7 @@ export default function Projects() {
                 {p.tags.map((t) => (
                   <li
                     key={t}
-                    className="cursor-default rounded-lg border border-accent/20 bg-accent/10 px-3 py-1.5 font-mono text-xs text-accent-soft transition-all duration-300 hover:-translate-y-0.5 hover:scale-105 hover:border-accent hover:bg-accent hover:text-ink-950 hover:shadow-[0_6px_16px_-4px_rgba(255,138,61,0.55)]"
+                    className="cursor-default rounded-lg border border-accent/20 bg-accent/10 px-3 py-1.5 font-mono text-xs text-accent-soft transition-all duration-300 hover:-translate-y-0.5 hover:scale-105 hover:border-accent hover:bg-accent hover:text-ink-950 hover:shadow-[0_6px_16px_-4px_rgba(0,240,255,0.55)]"
                   >
                     {t}
                   </li>

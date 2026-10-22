@@ -18,7 +18,7 @@ export default function ScrollTop() {
     <a
       href="#inicio"
       aria-label="Voltar ao topo"
-      className="group fixed bottom-6 right-6 z-40 flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-accent-soft hover:shadow-[0_10px_25px_-5px_rgba(255,138,61,0.6)]"
+      className="group fixed bottom-6 right-6 z-40 flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-accent-soft hover:shadow-[0_10px_25px_-5px_rgba(0,240,255,0.6)]"
     >
       <svg
         viewBox="0 0 24 24"

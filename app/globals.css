@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,7 +18,7 @@ body {
 }
 
 ::selection {
-  background: #ff8a3d55;
+  background: #00F0FF55;
 }
 
 /* Transição suave de cores ao trocar o tema */
@@ -53,9 +55,9 @@ html.light .theme-moon { display: block; }
    Troque as cores abaixo para ajustar o visual do tema claro:
      fundo #ece9e2 | cards #f5f3ee | blocos #e2ded5 | linhas #d0cbc0
      títulos #1c1b22 | texto #373540 | secundário #5a5863 | apagado #787680
-     laranja de texto #c2561a | tags #a84a12
+     ciano de texto #00707a | tags #005f68
    ============================================================ */
-html.light body { background-color: #ece9e2; color: #373540; }
+html.light body { background-color: #fdf3db; color: #373540; }
 
 /* Fundos e bordas */
 html.light .bg-ink-950 { background-color: #ddd4bf; }
@@ -82,8 +84,8 @@ html.light .text-zinc-400 { color: #5a5863; }
 html.light .text-zinc-500 { color: #787680; }
 html.light .placeholder\:text-zinc-500::placeholder { color: #787680; }
 html.light .text-accent,
-html.light .hover\:text-accent:hover { color: #c2561a; }
-html.light .text-accent-soft { color: #a84a12; }
+html.light .hover\:text-accent:hover { color: #00707a; }
+html.light .text-accent-soft { color: #005f68; }
 
 /* Estados de hover que precisam manter a cor própria */
 html.light .hover\:text-ink-950:hover { color: #0b0a10; }
@@ -105,3 +107,34 @@ html.light textarea:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px #f5f3ee inset;
   box-shadow: 0 0 0 1000px #f5f3ee inset;
 }
+
+/* Nome do início: branco no tema escuro, ciano no tema claro */
+.name-highlight { color: #ffffff; }
+html.light .name-highlight { color: #00707a; }
+
+/* Rodapé mais escuro que o resto do site */
+footer {
+  background-color: #050508 !important;   /* tema escuro */
+  border-color: #1b1925 !important;
+}
+html.light footer {
+  background-color: #dbc695 !important;   /* tema claro: bege mais escuro */
+  border-color: #d2bc91 !important;
+}
+
+/* Tema claro: ciano mais escuro (#00A8B5) nos elementos com a cor de destaque */
+html.light .bg-accent { background-color: #00A8B5; }
+html.light .hover\:bg-accent:hover { background-color: #00A8B5; }
+html.light .hover\:bg-accent-soft:hover { background-color: #00BFCC; }
+html.light .border-accent\/60 { border-color: rgb(0 168 181 / 0.6); }
+html.light .hover\:border-accent:hover,
+html.light .focus\:border-accent:focus { border-color: #00A8B5; }
+
+/* Tema claro: texto dos botões principais */
+html.light .text-ink-950 { color: white; }
+
+/* Tema claro: etiquetas de ferramentas mais escuras para se destacar do fundo */
+html.light .bg-accent\/10 { background-color: rgb(0 168 181 / 0.28); }
+html.light .border-accent\/30,
+html.light .border-accent\/20 { border-color: rgb(0 168 181 / 0.6); }
+html.light .text-accent-soft { color: #004a52; }

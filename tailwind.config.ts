@@ -12,9 +12,9 @@ const config: Config = {
           700: "#272436",
         },
         accent: {
-          DEFAULT: "#ff8a3d",
-          soft: "#ffb27a",
-          deep: "#c2561a",
+          DEFAULT: "#00F0FF",
+          soft: "#7DF8FF",
+          deep: "#00A8B5",
         },
       },
       fontFamily: {

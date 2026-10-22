@@ -5,21 +5,21 @@ export const profile = {
   role: "Desenvolvedor de Sistemas",
   tagline:
     "Olá! Sou Natan Sousa, desenvolvedor focado em criar interfaces web funcionais e atraentes. Em constante aprendizado, busco minha primeira oportunidade no mercado de TI para aplicar meus conhecimentos e evoluir lado a lado com times de alta performance.",
-  email: "gcw116.nsc@gmail.com",
+  email: "natansousacosta4@gmail.com",
   linkedin: "https://www.linkedin.com/in/natan-sousa-248a152aa",
   github: "https://github.com/Natan7z",
   location: "São Paulo, Brasil",
-  // Coloque sua foto em /public/natan.jpg (ou mude o caminho aqui).
-  photo: "/perfil2.jpeg",
+  // Fotos em public/ (o caminho começa com "/").
+  photo: "/perfil2.jpeg", // tema claro
+  photoDark: "/perfil.jpg", // tema escuro
 };
-
-export const highlights = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"];
 
 export type Skill = {
   name: string;
   detail: string;
-  icon: string; // slug do Devicon
-  variant?: string; // sufixo do arquivo, por padrão "original"
+  icon: string;
+  variant?: string;
+  iconUrl?: string; // imagem própria (link ou arquivo em /public)
 };
 
 export const skills: Skill[] = [
@@ -34,11 +34,14 @@ export const skills: Skill[] = [
   { name: "Python", detail: "Em estudo", icon: "python" },
   { name: "Git", detail: "Versionamento", icon: "git" },
   { name: "Figma", detail: "Protótipos e UI", icon: "figma" },
-  { name: "Photoshop", detail: "Edição de imagens", icon: "photoshop", variant: "plain" },
-  { name: "Illustrator", detail: "Vetores e logos", icon: "illustrator", variant: "plain" },
+  { name: "Bizagi", detail: "Modelagem de processos", icon: "", iconUrl: "/icons/bizagi.png" },
+  { name: "Trello", detail: "Gestão de tarefas", icon: "trello", variant: "plain" },
   { name: "VS Code", detail: "Editor principal", icon: "vscode" },
-  { name: "Visual Studio", detail: "IDE", icon: "visualstudio", variant: "plain" },
+  { name: "Canva", detail: "Design gráfico", icon: "canva" },
 ];
+
+// Todas as ferramentas aparecem como etiquetas no início do site (vem da lista acima).
+export const highlights = skills.map((s) => s.name);
 
 export type Project = {
   title: string;
@@ -52,9 +55,9 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "TCC Animations Kids",
-    year: "2024",
+    year: "2023",
     description:
-      "Projeto Website feito na Etec, onde possui jogos voltado ao público infantil focados em acessibilidade.",
+      "Site com animações voltado ao público infantil, feito com HTML e CSS.",
     tags: ["HTML", "CSS", "JavaScript"],
     href: "https://natan7z.github.io/animationskids/",
     image: "/animations-kids.png",

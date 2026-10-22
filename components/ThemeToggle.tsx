@@ -34,7 +34,7 @@ export default function ThemeToggle() {
       onClick={toggle}
       aria-label={isLight ? "Ativar tema escuro" : "Ativar tema claro"}
       title={isLight ? "Tema escuro" : "Tema claro"}
-      className="group flex h-10 w-10 items-center justify-center rounded-lg border border-ink-700 text-zinc-400 transition-all duration-300 hover:-translate-y-0.5 hover:scale-110 hover:border-accent hover:text-accent hover:shadow-[0_6px_16px_-4px_rgba(255,138,61,0.55)]"
+      className="group flex h-10 w-10 items-center justify-center rounded-lg border border-ink-700 text-zinc-400 transition-all duration-300 hover:-translate-y-0.5 hover:scale-110 hover:border-accent hover:text-accent hover:shadow-[0_6px_16px_-4px_rgba(0,240,255,0.55)]"
     >
       {/* Sol (aparece no tema escuro) */}
       <svg

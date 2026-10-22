@@ -8,9 +8,9 @@ export default function Hero() {
     <section id="inicio" className="mx-auto max-w-6xl px-5 py-20 sm:py-28">
       <div className="grid items-center gap-14 md:grid-cols-[1.2fr_0.8fr]">
         <Reveal direction="left">
-          <p className="font-mono text-sm text-accent">{profile.role}</p>
+          <p className="text-xl font-bold text-accent sm:text-2x2">{profile.role}</p>
           <h1 className="mt-3 text-5xl font-bold tracking-tight text-white sm:text-6xl">
-            <span className="name-highlight">Natan Sousa</span>
+            <span className="name-white">{profile.name} Sousa</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-400">
             {profile.tagline}
@@ -20,7 +20,7 @@ export default function Hero() {
             {highlights.map((h) => (
               <li
                 key={h}
-                className="cursor-default rounded-full border border-accent/30 bg-accent/10 px-3 py-1 font-mono text-xs text-accent-soft transition-all duration-300 hover:-translate-y-0.5 hover:scale-105 hover:border-accent hover:bg-accent hover:text-ink-950 hover:shadow-[0_6px_16px_-4px_rgba(255,138,61,0.55)]"
+                className="cursor-default rounded-md border border-accent/30 bg-accent/10 px-3 py-1 font-mono text-xs text-accent-soft transition-all duration-300 hover:-translate-y-0.5 hover:scale-105 hover:border-accent hover:bg-accent hover:text-ink-950 hover:shadow-[0_6px_16px_-4px_rgba(0,240,255,0.55)]"
               >
                 {h}
               </li>
@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
               href="#contato"
-              className="group relative overflow-hidden rounded-lg bg-accent px-6 py-3 font-medium text-ink-950 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-accent-soft hover:shadow-[0_0_30px_rgba(255,138,61,0.65)]"
+              className="group relative overflow-hidden rounded-lg bg-accent px-6 py-3 font-medium text-ink-950 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-accent-soft hover:shadow-[0_0_30px_rgba(0,240,255,0.65)]"
             >
               <span
                 aria-hidden="true"
@@ -69,7 +69,7 @@ export default function Hero() {
         <Reveal direction="right" delay={150} className="relative mx-auto w-full max-w-sm">
           <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-3xl border-2 border-accent/60" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-ink-800">
-            <Photo src={profile.photo} name={profile.name} />
+            <Photo src={profile.photo} darkSrc={profile.photoDark} name={profile.name} />
           </div>
         </Reveal>
       </div>
