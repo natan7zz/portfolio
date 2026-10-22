@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0a10,100:00F0FF&height=200&section=header&text=Portf%C3%B3lio%20Natan%20Sousa&fontSize=38&fontColor=ffffff&animation=fadeIn&desc=Desenvolvedor%20de%20Sistemas&descSize=18&descAlignY=72" alt="Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0a10,100:00F0FF&height=200&section=header&text=Portf%C3%B3lio%20Natan%20&fontSize=38&fontColor=ffffff&animation=fadeIn&desc=Desenvolvedor%20de%20Sistemas&descSize=18&descAlignY=72" alt="Banner" />
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Tema](https://img.shields.io/badge/tema-claro%20%26%20escuro-00F0FF?style=for-the-badge)
+![Tema](https://img.shields.io/badge/tema-claro%20%26%20escuro-00a8b5?style=for-the-badge)
 ![Versão](https://img.shields.io/badge/versão-1.0-22c55e?style=for-the-badge)
 
 </div>
