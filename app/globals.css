@@ -57,7 +57,7 @@ html.light .theme-moon { display: block; }
      títulos #1c1b22 | texto #373540 | secundário #5a5863 | apagado #787680
      ciano de texto #00707a | tags #005f68
    ============================================================ */
-html.light body { background-color: #fdf3db; color: #373540; }
+html.light body { background-color: #fff8e8; color: #373540; }
 
 /* Fundos e bordas */
 html.light .bg-ink-950 { background-color: #ddd4bf; }
@@ -118,8 +118,8 @@ footer {
   border-color: #1b1925 !important;
 }
 html.light footer {
-  background-color: #dbc695 !important;   /* tema claro: bege mais escuro */
-  border-color: #d2bc91 !important;
+  background-color: #cfc8b2 !important;   /* tema claro: bege mais escuro */
+  border-color: #cfc8b2 !important;
 }
 
 /* Tema claro: ciano mais escuro (#00A8B5) nos elementos com a cor de destaque */
