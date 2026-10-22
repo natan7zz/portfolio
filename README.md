@@ -46,7 +46,7 @@ O site apresenta quem eu sou, as ferramentas que utilizo, os projetos em destaqu
 ou
 2. Clone o repositório:
    ```bash
-   git clone https://github.com/Natan7z/natan-portfolio.git
+   git clone https://github.com/Natan7zz/natan-portfolio.git
    ```
 3. Entre na pasta e instale as dependências:
    ```bash
@@ -67,7 +67,7 @@ Para gerar a versão de produção, use `npm run build` e depois `npm start`.
 
 - Desenvolvido por **Natan Sousa**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Natan7z-181717?style=for-the-badge&logo=github)](https://github.com/Natan7z)
+[![GitHub](https://img.shields.io/badge/GitHub-Natan7zz-181717?style=for-the-badge&logo=github)](https://github.com/Natan7zz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Natan_Sousa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/natan-sousa-248a152aa)
 
 ---
