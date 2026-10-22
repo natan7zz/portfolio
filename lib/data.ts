@@ -5,9 +5,9 @@ export const profile = {
   role: "Software Developer",
   tagline:
     "Olá! Sou Natan Sousa, apaixonado por tecnologia e desenvolvimento de software. Desenvolvo projetos práticos e exploro novas tecnologias, com foco em desenvolvimento de software e automação de processos. Também estou expandindo meus conhecimentos em Dados e Quality Assurance (QA), buscando evolução técnica constante.",
-  email: "natansousacosta4@gmail.com",
+  email: "github.natan7z@gmail.com",
   linkedin: "https://www.linkedin.com/in/natan-sousa-248a152aa",
-  github: "https://github.com/Natan7z",
+  github: "https://github.com/Natan7zz",
   location: "São Paulo, Brasil",
   // Fotos em public/ (o caminho começa com "/").
   photo: "/perfil2.jpeg", // tema claro
