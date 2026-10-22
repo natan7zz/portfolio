@@ -50,28 +50,6 @@ O site apresenta quem eu sou, as ferramentas que utilizo, os projetos em destaqu
 
 </div>
 
-## ⚙️ Configuração
-
-Quase tudo se edita em arquivos simples:
-
-| O que mudar | Onde |
-|---|---|
-| Nome, cargo, texto, links, ferramentas e projetos | `lib/data.ts` |
-| Cor de destaque do site | `tailwind.config.ts` (`accent`) |
-| Cores do tema claro | `app/globals.css` (bloco "TEMA CLARO SUAVE") |
-| Título da aba | `app/layout.tsx` |
-| Ícone da aba | `app/icon.png` |
-| Fotos e banners | pasta `public/` |
-
-### Formulário de contato
-
-1. Acesse [web3forms.com](https://web3forms.com) e informe o e-mail que vai receber as mensagens.
-2. Copie a chave (access key) enviada para esse e-mail.
-3. Cole em `components/Contact.tsx`:
-
-```tsx
-const WEB3FORMS_KEY = "SUA_CHAVE_AQUI";
-```
 
 ## 🚀 Como usar
 
@@ -95,16 +73,6 @@ ou
 Para gerar a versão de produção, use `npm run build` e depois `npm start`.
 
 > ⚠️ Se o site abrir com cores antigas depois de mudar a configuração, pare o servidor, apague a pasta `.next` e rode `npm run dev` de novo.
-
-## 📁 Estrutura
-
-```
-natan-portfolio/
-├── app/          # Página, layout, estilos globais e ícone
-├── components/   # Header, Hero, Skills, Projects, Contact, Footer...
-├── lib/          # data.ts com todo o conteúdo do site
-└── public/       # Fotos e imagens dos projetos
-```
 
 ## 👨‍💻 Autor
 
