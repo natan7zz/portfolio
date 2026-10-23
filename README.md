@@ -18,7 +18,7 @@ Portfólio pessoal de **Natan Sousa**, desenvolvedor de sistemas, feito com **Ne
 
 O site apresenta quem eu sou, as ferramentas que utilizo, os projetos em destaque e um formulário para contato, tudo em uma única página, com tema claro e escuro.
 
-🌐 **Site:** [natan-portfolio.vercel.app](https://natan-portfolio.vercel.app)
+🌐 **Site:** [natan-portfolio.vercel.app](https://portfolio-natan7zz.vercel.app/)
 
 ## ✨ Funcionalidades
 
